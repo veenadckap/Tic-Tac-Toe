@@ -71,7 +71,7 @@ function check_winner($board) {
                         document.addEventListener('DOMContentLoaded', function() {
                             document.getElementById('modal').style.display = 'block';
                             document.getElementById('modal-text').innerText = '{$_SESSION['winner']} wins!';
-                            setTimeout(function() { document.getElementById('reset-form').submit(); }, 3000);
+                            setTimeout(function() { document.getElementById('reset-form').submit(); },1000 );
                         });
                       </script>";
             } elseif ($_SESSION['draw']) {
