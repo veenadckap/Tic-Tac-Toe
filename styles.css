@@ -25,14 +25,18 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-
 .cell button {
     width: 100px;
     height: 100px;
     font-size: 2em;
     cursor: pointer;
+    border: 2px solid gray;
 }
-
+button {
+    color: black;
+    font-family: fantasy;
+  
+}
 .reset {
     margin-top: 20px;
     padding: 10px 20px;
